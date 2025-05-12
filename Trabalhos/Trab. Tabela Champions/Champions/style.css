@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #101218;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+      font-size: 28px;
+      margin-right: 20px;
+    }
+    nav a{
+      font-size: 14px;
+      border: 1px solid;
+      border-radius: 20px;
+      padding: 10px;
+      color: #ECECEC;
+      text-decoration: none;
+    }
+    
+    header h1{
+      color: #EEF0FF;
+    }
+    
+    header {
+      width: 80%;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    
+    section, .gols{
+      width: 70%;
+      margin-top: 20px;
+    }
+    
+    section, .gols h2 {
+      font-weight: 400;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+    
+    table {
+      /* border: 1px solid; */
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th {
+      color: #999DA9;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      padding: 6px;
+    }
+    
+    tr, h2{
+      margin-top: 20px;
+    }
+
+    td{
+      color: #BDC1C6;
+      border-top: 1px solid;
+      text-align: center;
+      font-size: 14px;
+    }
+    .text-left{
+        text-align: left;
+    }
+    section img{
+        width: 24px;
+        height: 24px;
+    }
+    .result img{
+        width: 18px;
+        height: 18px;
+    }
+    .w-10{
+        width: 10px;
+    }
+    .w-25{
+        width: 25px;
+    }
+    .bl-blue{
+      border-left: 3px solid #4285F4;
+    }
+    .bl-orange {
+      border-left: 3px solid #fa7b17;
+    }
+    a:hover{
+      color: blue;
+    }
+.gols img{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.classificacao h2{
+  color: #ECECEC;
+}
